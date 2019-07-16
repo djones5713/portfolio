@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { HashLink as Link } from 'react-router-hash-link';
+import Header from './Components/Header/Header';
+import About from './Components/About/About';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <div className="nav-bar">
+        <Link className="nav" smooth to="/path#about">About</Link>
+        <Link className="nav" smooth to="/path#work">Work</Link>
+        <Link className="nav" smooth to="/path#contact">Contact</Link>
+      </div>
       </header>
+      <Header/>
+      <About />
+
     </div>
   );
 }

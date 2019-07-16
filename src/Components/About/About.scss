@@ -1,0 +1,64 @@
+$secondaryColor: #AD9132;
+$primaryColor:#986767;
+$mainFont: "Hoefler Text";
+
+.about-container {
+    position: relative;
+}
+
+.line-work {
+    background-color: $secondaryColor;
+    height: 2px;
+    margin-top: 20%;
+    width: 40%;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.title-about {
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+    position: absolute;
+    color:#D6B6B6;
+    margin-top: 100px;
+    margin-left: -30px;
+    font-family: $mainFont;
+    font-size: 60px;
+}
+
+.line-work-side {
+    background-color: $primaryColor;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-left: -260px;
+    margin-top: 10%;
+    height: 3px;
+    width: 600px;
+ 
+}
+
+.sub-container {
+    margin-top: 0;
+    margin-left: 20%;
+
+}
+
+.sub1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: $secondaryColor;
+}
+
+.sub2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: $secondaryColor;
+}
+
+.sub3 {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: $secondaryColor;
+    font-family: $mainFont;
+    font-weight: 800;
+}

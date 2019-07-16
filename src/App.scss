@@ -1,0 +1,17 @@
+$secondaryColor: #AD9132;
+$mainFont: "Hoefler Text";
+
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+}
+
+.nav {
+  margin: 4%;
+  text-decoration: none;
+  color:$secondaryColor;
+  font-family: $mainFont;
+  text-transform: uppercase;
+}
