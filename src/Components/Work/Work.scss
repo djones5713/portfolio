@@ -1,0 +1,37 @@
+$secondaryColor: #AD9132;
+$primaryColor:#986767;
+$mainFont: "Hoefler Text";
+
+.line-top {
+    background-color: $primaryColor;
+    margin-top: 20%;
+    margin-left: 0;
+    height: 1px;
+    width: 40%;
+}
+
+.title-work {
+    text-transform: uppercase;
+    color:#D6B6B6;
+    font-family: $mainFont;
+    font-size: 60px;
+}
+
+.work-headings {
+    margin-top: 5%;
+}
+
+.work-content {
+    width: 800px;
+    margin-left: 25%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-color: #986767;
+}
