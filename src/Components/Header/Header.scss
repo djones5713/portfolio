@@ -3,11 +3,11 @@ $mainFont: "Hoefler Text";
 
 @keyframes intro {
     0% {
-        width: 30%;
+        width: 50%;
        
     }
     100% {
-        width: 50%;
+        width: 100%;
     }
 
 }
@@ -32,13 +32,8 @@ $mainFont: "Hoefler Text";
 }
 
 .box {
-    height: 500px;
+    height: 700px;
     color:  #986767;;
-}
-
-.box:nth-of-type(1) {
-    width: 40%;
-    background-color: #986767;
 }
 
 .box:nth-of-type(2) {
@@ -61,7 +56,7 @@ $mainFont: "Hoefler Text";
 }
 
 .title-container{
-    margin-top: 90px;
+    margin-top: 200px;
 }
 
 .title {
@@ -71,15 +66,16 @@ $mainFont: "Hoefler Text";
     text-transform: uppercase;
     font-weight: 800;
     text-align: center;
-    font-size: 40px;
+    font-size: 70px;
 }
 
 .sub-title {
     font-family: $mainFont;
-    animation: title 12s  ease-in;
+    animation: title 8s  ease-in;
     text-transform: uppercase;
     text-align: center;
-    font-size: 20px;
+    margin-top: 4%;
+    font-size: 30px;
     color:#D6B6B6;
     opacity: 0.6;
 }
@@ -87,13 +83,13 @@ $mainFont: "Hoefler Text";
 .line-header {
     background-color: $secondaryColor;
     width: .20%;
-    height: 500px;
+    height: 700px;
     margin-top: 0;
 }
 
 
-/*.Destiny {
-    align-self: flex-start;
+.Destiny {
+    margin: 0;
     height: 100%;
-    width: 140%;
-}*/
+    width: 500px;
+}

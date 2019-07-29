@@ -30,8 +30,8 @@ $mainFont: "Hoefler Text";
 }
 
 .work-content {
-    width: 800px;
-    margin-left: 25%;
+    width: 1000px;
+    margin-left: 27%;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -39,9 +39,9 @@ $mainFont: "Hoefler Text";
 }
 
 .work {
-    width: 200px;
-    height: 200px;
-    margin: 5px;
+    width: 250px;
+    height: 250px;
+    margin: 8px;
     background-color: #986767;
 }
 
@@ -49,7 +49,7 @@ $mainFont: "Hoefler Text";
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 0 1830px 1500px;
+    border-width: 0 0 1807px 1500px;
     border-color: transparent transparent #D6B6B6 transparent;
     z-index: -1;
     position: absolute;
@@ -59,7 +59,7 @@ $mainFont: "Hoefler Text";
 
 .box-contact {
     width: 1260px;
-    height: 815px;
+    height: 873px;
     z-index: -6;
     position: absolute;
     margin-top: 15%;
@@ -78,7 +78,7 @@ $mainFont: "Hoefler Text";
 .line-contact-bottom {
     margin-right: 0;
     @include line-bottom;
-    margin-top: 15%;
+    margin-top: 5%;
     z-index: 9;
     
 }
