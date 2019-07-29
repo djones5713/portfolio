@@ -25,7 +25,7 @@ function About(){
            
            <div className="btns">
             <button className="btn-one">Resume</button>
-            <button className="btn-two">LinkedIn</button>
+            <button className="btn-two"><a href="www.linkedin.com/in/destinyljones">LinkedIn</a></button>
            </div>
 
            <hr className="line-work-bottom"/>

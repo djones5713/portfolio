@@ -2,6 +2,16 @@ $secondaryColor: #AD9132;
 $primaryColor:#986767;
 $mainFont: "Hoefler Text";
 
+@mixin line-bottom {
+    margin-top: 5%;
+    margin-right: 0;
+    width: 20%;
+    height: 10px;
+    background-color: $primaryColor;
+    border: none;
+    z-index: 9;
+}
+
 .about-container {
     position: relative;
 }
@@ -104,11 +114,15 @@ $mainFont: "Hoefler Text";
    
 }
 
+a {
+    text-decoration: none;
+    color:$primaryColor;
+}
+
 
 .line-work-bottom {
+    @include line-bottom;
     margin-top: 5%;
     margin-right: 0;
-    width: 20%;
-    height: 10px;
-    background-color: $primaryColor;
 }
+
