@@ -32,7 +32,7 @@ $mainFont: "Hoefler Text";
 }
 
 .box {
-    height: 700px;
+    height: 400px;
     color:  #986767;;
 }
 
@@ -56,7 +56,7 @@ $mainFont: "Hoefler Text";
 }
 
 .title-container{
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .title {
@@ -66,7 +66,7 @@ $mainFont: "Hoefler Text";
     text-transform: uppercase;
     font-weight: 800;
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .sub-title {
@@ -74,8 +74,9 @@ $mainFont: "Hoefler Text";
     animation: title 8s  ease-in;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 4%;
-    font-size: 30px;
+    margin-bottom: 8%;
+    margin-top: 2%;
+    font-size: 20px;
     color:#D6B6B6;
     opacity: 0.6;
 }
@@ -91,5 +92,5 @@ $mainFont: "Hoefler Text";
 .Destiny {
     margin: 0;
     height: 100%;
-    width: 500px;
+    width: 300px;
 }

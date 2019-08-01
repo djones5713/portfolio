@@ -1,0 +1,21 @@
+$secondaryColor: #AD9132;
+$primaryColor:#986767;
+$mainFont: "Hoefler Text";
+
+.box-contact {
+    width: 100vw;
+    height: 600px;
+    z-index: -6;
+    position: absolute;
+    background-color:$primaryColor;
+
+}
+
+.title-contact {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-color:$primaryColor;
+    z-index: 9;
+}
+

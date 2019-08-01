@@ -38,33 +38,31 @@ $mainFont: "Hoefler Text";
 
 .about-container {
     position: relative;
+    background-color: $primaryColor;
+    height: 400px;
 }
 
 .line-work {
     background-color: $secondaryColor;
     height: 4px;
-    margin-top: 4%;
-    width: 30%;
-    margin-right: 0;
-    margin-bottom: 0;
+    width: 100%;
     border: none;
-
 }
 
 .title-about {
     transform: rotate(-90deg);
-    animation: line 3s  ease-in;
+    animation: line 1s  ease-in;
     text-transform: uppercase;
     position: absolute;
     color:#D6B6B6;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 30px;
     font-family: $mainFont;
     font-size: 60px;
 }
 
 .line-work-side {
-    background-color: $primaryColor;
+    color:#D6B6B6;
     transform: rotate(90deg);
     position: absolute;
     margin-left: -200px;
@@ -76,16 +74,17 @@ $mainFont: "Hoefler Text";
 }
 
 .sub-container {
-    margin-top: 0;
+    margin-top: 4%;
     margin-left: 25%;
     position: absolute;
     left: -100px;
     width: 100px;
     height: 100px;
-    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation: slide 0.1s forwards;
     -webkit-animation-delay: 2s;
     animation: slide 0.5s forwards;
     animation-delay: 2s;
+    
 
 
 }
@@ -93,19 +92,18 @@ $mainFont: "Hoefler Text";
 .sub1 {
     text-transform: uppercase;
     font-size: 30px;
-    color: $secondaryColor;
+    color:white;
 }
 
 .sub2 {
-    text-transform: uppercase;
-    font-size: 40px;
+    font-size: 50px;
     color: $secondaryColor;
 }
 
 .sub3 {
     text-transform: uppercase;
-    font-size: 50px;
-    color: $secondaryColor;
+    font-size: 60px;
+    color: white;
     font-family: $mainFont;
     font-weight: 800;
 }
@@ -113,46 +111,44 @@ $mainFont: "Hoefler Text";
 .about-p {
     animation: line 5s  ease-in;
     text-align: left;
-    width: 1300px;
-    margin-left: 400px;
-    margin-top: 150px;
+    width: 900px;
+    margin-left: 250px;
+    margin-top: 12%;
     padding-left: 70px;
-    font-family: "Hoefler Text";
-    color: $primaryColor;
-    line-height: 40pt;
-    font-size: 25px;
-    font-weight: 800;
+    // font-family: "Hoefler Text";
+    color: white;
+    line-height: 25pt;
+    text-transform: uppercase;
+    font-size: 16px;
 
 }
 
-.btns{
-    animation: title 10s  ease-in;
-    margin-left: 45%;
-    margin-top: 5%;
-    border-radius: 30px;
+.btns button{
+    animation: title 5s  ease-in;
+    margin: 0 auto;
+    border-radius: 8px;
+    width: 200px;
+    height: 30px;
     display: flex;
     flex-direction: column;
+    font-size: 18px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-one{
     background-color: $primaryColor;
-    color: white;
     border: 1px solid white;
-    width: 200px;
-    height: 40px;
-    font-size: 18px;
-    margin-right: 25px;
-    margin-bottom: 3%;
-    border-radius: 5px;
+}
+
+.btn-one a  {
+    color: white;
 }
 
 .btn-two{
     border: 1px solid $primaryColor;
     color:$primaryColor;
-    width: 200px;
-    height: 40px;
-    font-size: 18px;
-    border-radius: 5px;
    
 }
 
@@ -160,13 +156,12 @@ $mainFont: "Hoefler Text";
     background-color: $primaryColor;
     color: white;
     border: 1px solid white;
-    width: 200px;
-    height: 40px;
-    font-size: 18px;
-    margin-right: 25px;
-    margin-top: 3%;
-    border-radius: 5px;
 }
+
+.btn-three a  {
+    color: white;
+}
+
 
 a {
     text-decoration: none;

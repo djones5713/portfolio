@@ -9,28 +9,27 @@ $mainFont: "Hoefler Text";
     border: none;
 }
 
+.work-container{
+    background-color:$primaryColor;
+    height: 400px;
+}
 .line-top {
-    background-color: $primaryColor;
+    background-color: $secondaryColor;
     border: none;
-    margin-top: 20%;
     margin-left: 0;
-    height: 3px;
-    width: 40%;
+    height: 4px;
+    width: 100%;
 }
 
 .title-work {
     text-transform: uppercase;
     color:#D6B6B6;
     font-family: $mainFont;
-    font-size: 60px;
-}
-
-.work-headings {
-    margin-top: 5%;
+    font-size: 100px;
 }
 
 .work-content {
-    width: 1000px;
+    width: 1500px;
     margin-left: 27%;
     align-items: center;
     display: flex;
@@ -39,54 +38,10 @@ $mainFont: "Hoefler Text";
 }
 
 .work {
-    width: 250px;
-    height: 250px;
-    margin: 8px;
-    background-color: #986767;
+    width: 170px;
+    height: 170px;
+    margin-left: 20px;
+    background-color: white;
 }
 
-.triangle {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 0 1807px 1500px;
-    border-color: transparent transparent #D6B6B6 transparent;
-    z-index: -1;
-    position: absolute;
-    right: 0;
-    margin-top: 0;
-}
 
-.box-contact {
-    width: 1260px;
-    height: 873px;
-    z-index: -6;
-    position: absolute;
-    margin-top: 15%;
-    background-color: #986767;
-
-}
-
-.title-contact {
-    width: 200px;
-    height: 200px;
-    margin: 5px;
-    background-color: #986767;
-    z-index: 9;
-}
-
-.line-contact-bottom {
-    margin-right: 0;
-    @include line-bottom;
-    margin-top: 5%;
-    z-index: 9;
-    
-}
-
-.line-end-bottom {
-    @include line-bottom;
-    position: absolute;
-    margin-top: 50%;
-    margin-left: 80%;
-    z-index: 20;
-}

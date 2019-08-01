@@ -7,19 +7,17 @@ function About(){
             <hr className="line-work"/>
             
             <div className="sub-container">
-                <p className="sub1">forge</p>
-                <p className="sub2">creativity</p>
-                <h1 className="sub3">&design</h1>
+                <p className="sub1">developer</p>
+                <h1 className="sub3"><span className="sub2">&</span>designer</h1>
             </div>
                 <hr className="line-work-side"/>
                 <h1 className="title-about">Create</h1>
 
-            <p className="about-p" >I am Full Stack Software Engineering with experience in marketing and responsive design.
+            <p className="about-p" >I am Full Stack Software Engineering with experience in marketing and responsive web design.
             I have a passion for building websites and help clients create a powerful message online. 
             {/* <br/> Looking for a developer with a designers touch?  */}
             </p>
            
-           <hr className="line-work-bottom"/>
         </div>
     )
 }
