@@ -94,3 +94,64 @@ $mainFont: "Hoefler Text";
     height: 100%;
     width: 300px;
 }
+
+@media only screen and (max-width: 1280px){
+    .line-header {
+        background-color: $secondaryColor;
+        width: .20%;
+        height: 400px;
+        margin-top: 0;
+    }
+
+}
+
+@media only screen and (max-width: 375px){
+
+// boxes
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box {
+        height: 400px;
+    }
+
+    .box:nth-of-type(2) {
+        animation: none;
+        background-color :#986767;
+    }
+    
+    .box:nth-of-type(3) {
+        display: none;
+    }
+    
+    .box:nth-of-type(4) {
+        display: none;
+    }
+
+// line 
+
+.line-header {
+    display: none;
+}
+
+// words 
+
+.title {
+    animation: none;
+}
+
+.sub-title {
+    animation: none;
+}
+
+ // photo
+
+    .Destiny {
+        margin: 0;
+        height: 100%;
+        width: 375px;
+    }
+}

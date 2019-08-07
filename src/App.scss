@@ -16,3 +16,10 @@ $mainFont: "Hoefler Text";
   font-size: 18px;
   text-transform: uppercase;
 }
+
+@media only screen and (max-width: 812px){
+  .nav-bar {
+    justify-content: center;
+  }
+  
+}

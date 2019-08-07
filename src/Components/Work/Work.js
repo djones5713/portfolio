@@ -23,8 +23,8 @@ class Work extends Component {
                    
                 <div className="work-content">
                     <div className="work"></div>
-                    <div className="work"></div>
-                    <div className="work"></div> 
+                    <div className="work"><h2 className="soon">Coming Soon</h2></div>
+                    <div className="work"><h2 className="soon">Coming Soon</h2></div> 
                 </div>
             </div>
             

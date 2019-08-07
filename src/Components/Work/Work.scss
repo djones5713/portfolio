@@ -11,7 +11,7 @@ $mainFont: "Hoefler Text";
 
 .work-container{
     background-color:$primaryColor;
-    height: 400px;
+    height: 500px;
 }
 .line-top {
     background-color: $secondaryColor;
@@ -37,11 +37,52 @@ $mainFont: "Hoefler Text";
     position: relative;
 }
 
+.soon {
+    margin-top: 80px;
+    font-family:"Hoefler Text";
+    text-transform: uppercase;
+}
+
 .work {
-    width: 170px;
-    height: 170px;
+    width: 270px;
+    height: 270px;
     margin-left: 20px;
-    background-color: white;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
 }
 
 
+@media only screen and (max-width: 375px){
+    .work-container {
+        width: 100%;
+        height: 1000px;
+    }
+
+    // title 
+
+    .title-work {
+        font-size: 90px;
+        margin-bottom: 12px;
+    }
+
+    // boxes
+    .work {
+        width: 270px;
+        height: 270px;
+        margin: 0 auto;
+        margin-bottom: 12px;
+    }
+    
+    
+    .work-content {
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+
+    }
+}
