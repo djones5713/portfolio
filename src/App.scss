@@ -8,13 +8,37 @@ $mainFont: "Hoefler Text";
   justify-content:flex-end;
 }
 
+.nav-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
 .nav {
-  margin: 4%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
   text-decoration: none;
   color:$secondaryColor;
   font-family: $mainFont;
-  font-size: 18px;
+  font-size: 12px;
   text-transform: uppercase;
+}
+
+.github{
+  animation: title 5s  ease-in;
+  width: 30px; 
+  height: 30px;
+
+}
+
+.linkedin{
+  animation: title 5s  ease-in;
+  width: 30px;
+  height: 30px;
 }
 
 @media only screen and (max-width: 812px){

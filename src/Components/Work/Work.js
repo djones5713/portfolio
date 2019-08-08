@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import airport from '../Work/airport.png';
 import './Work.scss';
 
 
@@ -22,10 +23,14 @@ class Work extends Component {
                 </div>
                    
                 <div className="work-content">
-                    <div className="work"></div>
+                    <div className="work"><a href="http://www.theetravelbook.com/" target="_blank">
+                        <img className="project" src={airport} alt="Travel App Project"/></a>
+                        <a href="https://github.com/djones5713/travelbook" target="_blank"><button className="project-btn">Github</button></a>
+                    </div>
                     <div className="work"><h2 className="soon">Coming Soon</h2></div>
                     <div className="work"><h2 className="soon">Coming Soon</h2></div> 
                 </div>
+
             </div>
             
         )

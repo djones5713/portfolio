@@ -11,7 +11,7 @@ $mainFont: "Hoefler Text";
 
 .work-container{
     background-color:$primaryColor;
-    height: 500px;
+    height: 400px;
 }
 .line-top {
     background-color: $secondaryColor;
@@ -30,7 +30,7 @@ $mainFont: "Hoefler Text";
 
 .work-content {
     width: 1500px;
-    margin-left: 27%;
+    margin-left: 18%;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -44,16 +44,32 @@ $mainFont: "Hoefler Text";
 }
 
 .work {
-    width: 270px;
-    height: 270px;
+    width: 260px;
+    height: 220px;
     margin-left: 20px;
-    background-color: black;
-    color: white;
-    font-size: 25px;
+    background-color: white;
+    color: #AD9132;
+    font-size: 15px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 
 }
 
+.project{
+    width: 130px;
+    height: 130px;
+    margin-top: 20%;
+}
+
+.project-btn{
+    color: #AD9132;
+    width: 100%;
+    font-size: 12px;
+    font-family:"Hoefler Text";
+    text-transform: uppercase;
+    padding: 1%;
+}
 
 @media only screen and (max-width: 375px){
     .work-container {

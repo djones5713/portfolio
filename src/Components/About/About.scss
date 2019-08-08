@@ -126,12 +126,12 @@ $mainFont: "Hoefler Text";
 .btns button{
     animation: title 5s  ease-in;
     margin: 0 auto;
-    border-radius: 8px;
-    width: 200px;
+    // border-radius: 8px;
+    width: 90px;
     height: 30px;
     display: flex;
     flex-direction: column;
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 10px;
     justify-content: center;
     align-items: center;

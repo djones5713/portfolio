@@ -66,7 +66,7 @@ $mainFont: "Hoefler Text";
     text-transform: uppercase;
     font-weight: 800;
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .sub-title {
@@ -74,10 +74,10 @@ $mainFont: "Hoefler Text";
     animation: title 8s  ease-in;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 8%;
+    margin-bottom: 2%;
     margin-top: 2%;
-    font-size: 20px;
-    color:#D6B6B6;
+    font-size: 15px;
+    color: white;
     opacity: 0.6;
 }
 
@@ -92,7 +92,7 @@ $mainFont: "Hoefler Text";
 .Destiny {
     margin: 0;
     height: 100%;
-    width: 300px;
+    width: 250px;
 }
 
 @media only screen and (max-width: 1280px){
