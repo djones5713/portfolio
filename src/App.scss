@@ -1,26 +1,31 @@
-$secondaryColor: #AD9132;
-$mainFont: "Hoefler Text";
+$secondaryColor: white;
+$mainFont: "Arial";
 
+.App-header {
+  background-color: black;
+  display: flex;
+}
 
 .nav-bar {
   display: flex;
   flex-direction: row;
-  justify-content:flex-end;
+  margin: 0 auto;
+  height: 40px;
+  background-color: black;
 }
 
 .nav-icons {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
+  margin: 1%;
 }
 
 .nav {
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-top: 1%;
+  margin-left: 0%;
+  margin-right: 50%;
+  margin-top: 8%;
   margin-bottom: 1%;
-
   text-decoration: none;
   color:$secondaryColor;
   font-family: $mainFont;
@@ -28,22 +33,31 @@ $mainFont: "Hoefler Text";
   text-transform: uppercase;
 }
 
-.github{
-  animation: title 5s  ease-in;
-  width: 30px; 
-  height: 30px;
+.nav-icons {
+  align-content: flex-start;
+}
 
+.icons {
+  display: flex;
+}
+
+.github{
+  width: 25px; 
+  height: 25px;
+  margin-left: 1%;
 }
 
 .linkedin{
-  animation: title 5s  ease-in;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
+  margin-left: 1%;
 }
 
 @media only screen and (max-width: 812px){
-  .nav-bar {
-    justify-content: center;
+  .nav {
+    margin-left: 0%;
+    margin-right: 20%;
+    margin-top: 8%;
+    margin-bottom: 1%;
   }
-  
 }

@@ -1,22 +1,17 @@
 import React from 'react';
+import devices from '../About/devices.png';
 import './About.scss';
 
 function About(){
     return (
         <div className="about-container">
-            <hr className="line-work"/>
-            
-            <div className="sub-container">
-                <p className="sub1">developer</p>
-                <h1 className="sub3"><span className="sub2">&</span>designer</h1>
+            <div className="about-info">
+                <p className="about">I am Full Stack Software Engineering with experience in marketing and responsive web design.
+                I have a passion for building websites and helping clients create a powerful message online.
+                </p>
+                <a  className="about-btn" href="https://drive.google.com/file/d/1gQaVO_NZHwSdrWodc1qxLehullI7Ya0x/view?usp=sharing" target="_blank"><button>Resume</button></a>
             </div>
-                <hr className="line-work-side"/>
-                <h1 className="title-about">Create</h1>
-
-            <p className="about-p" >I am Full Stack Software Engineering with experience in marketing and responsive web design.
-            I have a passion for building websites and help clients create a powerful message online. 
-            {/* <br/> Looking for a developer with a designers touch?  */}
-            </p>
+            <img className="devices" src={devices} alt="computers"/>
            
         </div>
     )

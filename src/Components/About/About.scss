@@ -1,228 +1,73 @@
-$secondaryColor: #AD9132;
-$primaryColor:#986767;
-$mainFont: "Hoefler Text";
-
-@keyframes line {
-    0% {
-        visibility: hidden;
-       
-    }
-    50% {
-        visibility: hidden;
-    }
-    100% {
-        visibility: visible;
-    }
-
-}
+$secondaryColor: #E67373;
+$primaryColor: white;
+$mainFont: "Arial";
 
 
-
-@-webkit-keyframes slide {
-    100% { left: 0; }
-}
-
-@keyframes slide {
-    100% { left: 0; }
-}
-
-@mixin line-bottom {
-    margin-top: 5%;
-    margin-right: 0;
-    width: 20%;
-    height: 10px;
-    background-color: $primaryColor;
-    border: none;
-    z-index: 9;
-}
-
-.about-container {
-    position: relative;
-    background-color: $primaryColor;
-    height: 400px;
-}
-
-.line-work {
-    background-color: $secondaryColor;
-    height: 4px;
-    width: 100%;
-    border: none;
-}
-
-.title-about {
-    transform: rotate(-90deg);
-    animation: line 1s  ease-in;
-    text-transform: uppercase;
-    position: absolute;
-    color:#D6B6B6;
-    margin-top: 200px;
-    margin-left: 30px;
-    font-family: $mainFont;
-    font-size: 60px;
-}
-
-.line-work-side {
-    color:#D6B6B6;
-    transform: rotate(90deg);
-    position: absolute;
-    margin-left: -200px;
-    margin-top: 10%;
-    height: 3px;
-    width: 500px;
-    border: none;
- 
-}
-
-.sub-container {
-    margin-top: 4%;
-    margin-left: 25%;
-    position: absolute;
-    left: -100px;
-    width: 100px;
-    height: 100px;
-    -webkit-animation: slide 0.1s forwards;
-    -webkit-animation-delay: 2s;
-    animation: slide 0.5s forwards;
-    animation-delay: 2s;
-    
-
-
-}
-
-.sub1 {
-    text-transform: uppercase;
-    font-size: 30px;
-    color:white;
-}
-
-.sub2 {
-    font-size: 50px;
-    color: $secondaryColor;
-}
-
-.sub3 {
-    text-transform: uppercase;
-    font-size: 60px;
-    color: white;
-    font-family: $mainFont;
-    font-weight: 800;
-}
-
-.about-p {
-    animation: line 5s  ease-in;
-    text-align: left;
-    width: 900px;
-    margin-left: 250px;
-    margin-top: 12%;
-    padding-left: 70px;
-    // font-family: "Hoefler Text";
-    color: white;
-    line-height: 25pt;
-    text-transform: uppercase;
-    font-size: 16px;
-
-}
-
-.btns button{
-    animation: title 5s  ease-in;
-    margin: 0 auto;
-    // border-radius: 8px;
-    width: 90px;
-    height: 30px;
+.about-container{
     display: flex;
-    flex-direction: column;
-    font-size: 14px;
-    margin-top: 10px;
-    justify-content: center;
-    align-items: center;
+    padding: 30px;
 }
 
-.btn-one{
-    background-color: $primaryColor;
-    border: 1px solid white;
+.about {
+    margin-top: 60px;
+    font-family: $mainFont;
+    line-height: 25px;
+    color: $secondaryColor;
+    width: 70%;
+    margin-left: 10%;
 }
 
-.btn-one a  {
-    color: white;
+
+.about-btn > button {
+    color: $secondaryColor;
+    margin-left: 30%;
+    margin-top: 5%;
+    padding: 5px;
+    border: 1px solid $secondaryColor;
+    font-size: 12px;
+    width: 80px;
+    font-size: $mainFont;
 }
 
-.btn-two{
+button:hover { 
+    background-color: $secondaryColor;
     border: 1px solid $primaryColor;
-    color:$primaryColor;
-   
-}
-
-.btn-three{
-    background-color: $primaryColor;
-    color: white;
-    border: 1px solid white;
-}
-
-.btn-three a  {
-    color: white;
-}
-
-
-a {
-    text-decoration: none;
-    color:$primaryColor;
-}
-
-
-.line-work-bottom {
-    @include line-bottom;
-    margin-top: 10%;
-    margin-right: 0;
-}
-
-@media only screen and (max-width: 1280px){
-    .about-p {
-        animation: none;
-        width: 500px;
-        color: white;
-        line-height: 25pt;
-        font-size: 16px;
-        margin-left: 150px;
-        margin-top: 130px;
+    color: $primaryColor;
     
-    }
+  }
 
+.devices {
+    height: 300px;
 }
 
 @media only screen and (max-width: 375px){
-    .about-container {
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .about-info{
+        text-align: center;
+        
+    }
+
+    .about {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 40px;
         width: 100%;
-        height: 400px;
     }
     
-    // titles 
-
-    .title-about {
-       display: none;
+    .about-btn > button {
+        text-align: center;
+        margin: 0 auto;
     }
 
-    .sub-container {
-        animation: none;
-        padding: 10px;
-    }
-
-    .sub3 {
-        text-transform: uppercase;
-        font-size: 50px;
-        color: white;
-        font-family: $mainFont;
-        font-weight: 800;
-    }
-
-    .about-p {
-        animation: none;
-        width: 300px;
-        color: white;
-        line-height: 25pt;
-        font-size: 16px;
-        margin-left: 0px;
-        margin-top: 130px;
-    
+    .devices {
+        height: 200px;
+        margin-top: 40px;
     }
     
 }
+

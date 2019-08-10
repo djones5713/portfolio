@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import airport from '../Work/airport.png';
+import yelp from '../Work/yelp.png';
+import pos from '../Work/pos.png';
 import './Work.scss';
 
 
@@ -16,21 +18,12 @@ class Work extends Component {
     render(){
         return (
             <div className="work-container">
-                <hr className="line-top"/>
-                <div className="work-headings">
-                    <p className="sub2">Portfolio</p>
-                    <h1 className="title-work">Work</h1>
-                </div>
-                   
-                <div className="work-content">
-                    <div className="work"><a href="http://www.theetravelbook.com/" target="_blank">
-                        <img className="project" src={airport} alt="Travel App Project"/></a>
-                        <a href="https://github.com/djones5713/travelbook" target="_blank"><button className="project-btn">Github</button></a>
-                    </div>
-                    <div className="work"><h2 className="soon">Coming Soon</h2></div>
-                    <div className="work"><h2 className="soon">Coming Soon</h2></div> 
-                </div>
-
+              <div className="box-section"></div>
+              <div className="work-boxes">
+                  <div className="box-work"><a href="http://www.theetravelbook.com/" target="_blank"><img className="airplane" src={airport} alt="airplane"/></a></div>
+                  <div className="box-work"><img className="pos" src={pos} alt="pos"/></div>
+                  <div className="box-work"><img className="yelp" src={yelp} alt="yelp"/></div>
+              </div>
             </div>
             
         )

@@ -1,157 +1,66 @@
 $secondaryColor: #AD9132;
 $mainFont: "Hoefler Text";
 
-@keyframes intro {
-    0% {
-        width: 50%;
-       
-    }
-    100% {
-        width: 100%;
-    }
-
-}
-
-@keyframes title {
-    0% {
-        visibility: hidden;
-       
-    }
-    50% {
-        visibility: hidden;
-    }
-    100% {
-        visibility: visible;
-    }
-
-}
-
-.main-container {
+.main-container{
     display: flex;
-    flex-direction: row;
+    margin-bottom: 40px;
 }
 
 .box {
-    height: 400px;
-    color:  #986767;;
+    height: 300px;
+    width: 41%;
+    background-color: #E67373;
 }
 
-.box:nth-of-type(2) {
-    animation: intro 3s  ease-in;
-    animation-fill-mode: forwards;  
-    background-color :#986767;
-    opacity: 0.9;
-}
-
-.box:nth-of-type(3) {
-    width: 20%;
-    background-color :#986767;
-    opacity: 0.7;
-}
-
-.box:nth-of-type(4) {
-    width: 10%;
-    background-color :#986767;
-    opacity: 0.6;
-}
-
-.title-container{
-    margin-top: 50px;
-}
-
-.title {
-    color: white;
-    font-family: $mainFont;
-    animation: title 5s  ease-in;
-    text-transform: uppercase;
-    font-weight: 800;
-    text-align: center;
-    font-size: 35px;
-}
-
-.sub-title {
-    font-family: $mainFont;
-    animation: title 8s  ease-in;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 2%;
-    margin-top: 2%;
-    font-size: 15px;
-    color: white;
-    opacity: 0.6;
-}
-
-.line-header {
-    background-color: $secondaryColor;
-    width: .20%;
-    height: 700px;
-    margin-top: 0;
-}
-
-
-.Destiny {
-    margin: 0;
-    height: 100%;
+.profile {
+    height: 300px;
     width: 250px;
 }
 
-@media only screen and (max-width: 1280px){
-    .line-header {
-        background-color: $secondaryColor;
-        width: .20%;
-        height: 400px;
-        margin-top: 0;
-    }
+.Name {
+    height: 170px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
 
+.Des {
+    height: 150px;
+    margin-top: 10%;
+    margin-left: 20%;
 }
 
 @media only screen and (max-width: 375px){
-
-// boxes
-
-    .main-container {
-        display: flex;
-        flex-direction: column;
-    }
-
     .box {
-        height: 400px;
+        height: 300px;
+        width: 22%;
+        background-color: #E67373;
     }
 
-    .box:nth-of-type(2) {
-        animation: none;
-        background-color :#986767;
-    }
-    
-    .box:nth-of-type(3) {
-        display: none;
-    }
-    
-    .box:nth-of-type(4) {
-        display: none;
+    .Des {
+        height: 100px;
+        margin-top: 200px;
+        margin-left: -70px;
+        position: absolute;
     }
 
-// line 
+    .Name {
+        height: 100px;
+        margin-top: 40%;
+        margin-left: 5%;
+        position: absolute;
+    }
 
-.line-header {
-    display: none;
+    .profile {
+        height: 300px;
+        width: 220px;
+    }
+
 }
 
-// words 
+@media only screen and (max-width: 800px){
 
-.title {
-    animation: none;
-}
-
-.sub-title {
-    animation: none;
-}
-
- // photo
-
-    .Destiny {
-        margin: 0;
-        height: 100%;
-        width: 375px;
+    .Name {
+        height: 95px;
     }
+
 }
