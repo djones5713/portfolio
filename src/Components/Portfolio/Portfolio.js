@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import airport from '../Work/airport.png';
-import yelp from '../Work/yelp.png';
-import pos from '../Work/pos.png';
-import './Work.scss';
+import airport from '../Portfolio/airport.png';
+import yelp from '../Portfolio/yelp.png';
+import pos from '../Portfolio/pos.png';
+import './Portfolio.scss';
 
 
-class Work extends Component {
+class Portfolio extends Component {
     constructor(){
         super()
         this.state = {
@@ -17,10 +17,10 @@ class Work extends Component {
 
     render(){
         return (
-            <div className="work-container">
+            <div className="work-container"  id="Portfolio"> 
               <div className="box-section"></div>
               <div className="work-boxes">
-                  <div className="box-work"><a href="http://www.theetravelbook.com/" target="_blank"><img className="airplane" src={airport} alt="airplane"/></a></div>
+                  <div className="box-work"><a href="http://www.theetravelbook.com/" target="_blank" rel="noopener noreferrer"><img className="airplane" src={airport} alt="airplane"/></a></div>
                   <div className="box-work"><img className="pos" src={pos} alt="pos"/></div>
                   <div className="box-work"><img className="yelp" src={yelp} alt="yelp"/></div>
               </div>
@@ -32,4 +32,4 @@ class Work extends Component {
     
 }
 
-export default Work
+export default Portfolio

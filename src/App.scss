@@ -1,4 +1,5 @@
 $secondaryColor: white;
+$primaryColor: #E67373;
 $mainFont: "Arial";
 
 .App-header {
@@ -31,6 +32,10 @@ $mainFont: "Arial";
   font-family: $mainFont;
   font-size: 12px;
   text-transform: uppercase;
+}
+
+.nav:hover{
+  color:$primaryColor;
 }
 
 .nav-icons {
