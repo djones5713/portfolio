@@ -3,8 +3,8 @@ import { Link } from "react-scroll";
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Portfolio from './Components/Portfolio/Portfolio';
-import github from '../src/Components/Header/github.png';
-import linkedin from '../src/Components/Header/linkedin.png';
+import github from '../src/Components/Home/github.png';
+import linkedin from '../src/Components/Home/linkedin.png';
 import './App.scss';
 
 function App() {
